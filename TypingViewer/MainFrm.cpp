@@ -133,7 +133,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 
 	// 각 버튼의 사이즈 변경
 	m_wndToolBar.GetItemRect(0, rect);
-	m_wndToolBar.SetSizes(rect.Size() + CSize(0, 15), CSize(32, 32));
+	m_wndToolBar.SetSizes(rect.Size() + CSize(0, 25), CSize(32, 38));
 
 	// 툴바 도킹
 	m_wndToolBar.EnableDocking(CBRS_ALIGN_ANY);

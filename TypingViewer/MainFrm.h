@@ -66,7 +66,7 @@ public:
 		if (m_bOutput) m_wndToolBar.SetButtonInfo(2, ID_TOOLBAR_BUTTON_MONITOR, TBSTYLE_BUTTON | TBSTATE_ENABLED, 3);
 		else m_wndToolBar.SetButtonInfo(2, ID_TOOLBAR_BUTTON_MONITOR, TBSTYLE_BUTTON | TBSTATE_ENABLED, 2);
 		m_wndToolBar.GetItemRect(0, rect);
-		m_wndToolBar.SetSizes(rect.Size() + CSize(0, 15), CSize(32, 32));
+		m_wndToolBar.SetSizes(rect.Size() + CSize(0, 25), CSize(32, 38));
 	}
 	void LFtoCF(LOGFONT& a_lf, CHARFORMAT2& a_cf);
 	void CFtoLF(LOGFONT& a_lf, CHARFORMAT2& a_cf);
